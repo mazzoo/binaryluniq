@@ -1,0 +1,29 @@
+
+binaryluniq
+~~~~~~~~~~~
+
+finds and dumps sequences od unique bytes in an binary image.
+e.g. useful when searching dictionaries or s-boxes in BLOBs.
+
+
+usage
+~~~~~
+
+  usage:
+      binaryluniq image [n_min]
+
+      search the longes sequence of unique bytes in image
+      by default only uniq sequences of 256 bytes will be dumped
+      n_min is optional: reduce the threshold of dumping from 256 to n_min
+
+
+authors
+~~~~~~~
+
+mazzoo - binarytools /at/ mazzoo [dot] de
+
+
+license
+~~~~~~~
+
+GPLv3, see file LICENSE
