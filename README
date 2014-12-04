@@ -2,7 +2,7 @@
 binaryluniq
 ~~~~~~~~~~~
 
-finds and dumps sequences od unique bytes in an binary image.
+finds and dumps sequences of unique bytes in an binary image.
 e.g. useful when searching dictionaries or s-boxes in BLOBs.
 
 

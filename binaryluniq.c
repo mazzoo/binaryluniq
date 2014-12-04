@@ -11,7 +11,7 @@
 #include <errno.h>
 
 
-#define BUF_SZ 1024
+#define BUF_SZ 4096
 char buf[BUF_SZ];
 
 void usage(void)
@@ -45,7 +45,7 @@ void dump_bytes(uint8_t * image, int offset, int uniqcount)
       printf("0x%.8x :  ", offset + i);
     }
     printf("%.2x ", image[i]);
-    if ( (i % 16) == 8)
+    if ( (i % 16) == 7)
     {
       printf(" ");
     }
